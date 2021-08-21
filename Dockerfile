@@ -14,4 +14,4 @@ RUN pip3 install --no-cache-dir -U -r requirements.txt
 COPY . .
 
 #Starting Bot
-CMD ["python3", "Rdp.py"]
+CMD ["python3", "rdp.py"]
