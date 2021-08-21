@@ -25,7 +25,7 @@ os.system("sed -i 's/\/bin\/sh/\/bin\/bash/g' /etc/passwd")
 print("User Created and Configured")
 #@markdown  Visit http://remotedesktop.google.com/headless and Copy the command after authentication
 
-CRP = "os.environ.get("HEAD_LESS_CODE")" #@param {type:"string"}
+CRP = os.environ.get("HEAD_LESS_CODE") #@param {type:"string"}
 
 #@markdown Enter a pin more or equal to 6 digits
 Pin = 123456 #@param {type: "integer"}
